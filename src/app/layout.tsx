@@ -8,8 +8,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ scrollBehavior: "smooth", overflow: "hidden" }}>
-      <body style={{ overflow: "hidden", height: "100vh" }}>
+    <html lang="en" style={{ overflowX: "hidden" }}>
+      <body style={{ overflowX: "hidden" }}>
         <NextUIProvider className="dark">
           <Navbar />
           {children}
