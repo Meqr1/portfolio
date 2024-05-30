@@ -72,6 +72,28 @@ body {
   }
 }
 
+.purple-fade:before {
+  position: absolute;
+  content: "";
+  top: 10%;
+  right: -35%;
+  height: 80vh;
+  width: 100vw;
+  z-index: -100;
+  mix-blend-mode: screen;
+  background:
+    radial-gradient(
+        circle farthest-corner at 0 0,
+        #000 30%,
+        #a899fb 65%,
+        #732fc9 80%,
+        #c1f1ff 110%
+      )
+      no-repeat,
+    radial-gradient(closest-side at 60% 50%, #732fc9 20%, #000 100%) no-repeat;
+  background-blend-mode: overlay;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

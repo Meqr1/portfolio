@@ -10,9 +10,9 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ overflowX: "hidden" }}>
       <body style={{ overflowX: "hidden" }}>
-        <NextUIProvider className="dark">
-          <Navbar />
-          {children}
+        <NextUIProvider>
+        <Navbar />
+        {children}
         </NextUIProvider>
       </body>
     </html>
