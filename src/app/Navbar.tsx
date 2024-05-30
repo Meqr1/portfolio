@@ -18,15 +18,15 @@ const Nav = () => {
         Meqr&apos;s Protfolio
       </NavbarBrand>
       <NavbarContent justify="end" className="sm:flex hidden">
-        <NavbarItem isActive={window.location.pathname === "/"}>
+        <NavbarItem>
           <Link href="/">Home</Link>
         </NavbarItem>
 
-        <NavbarItem isActive={window.location.pathname === "/about"}>
+        <NavbarItem>
           <Link href="/about">About</Link>
         </NavbarItem>
 
-        <NavbarItem isActive={window.location.pathname === "/projects"}>
+        <NavbarItem>
           <Link href="/projects">Projects</Link>
         </NavbarItem>
       </NavbarContent>
