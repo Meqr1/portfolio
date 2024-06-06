@@ -23,10 +23,6 @@ const Nav = () => {
         </NavbarItem>
 
         <NavbarItem>
-          <Link href="/about">About</Link>
-        </NavbarItem>
-
-        <NavbarItem>
           <Link href="/projects">Projects</Link>
         </NavbarItem>
       </NavbarContent>
@@ -34,9 +30,6 @@ const Nav = () => {
       <NavbarMenu className="sm:hidden">
         <NavbarMenuItem>
           <Link href="/">Home</Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link href="/about">About</Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link href="/projects">Projects</Link>
