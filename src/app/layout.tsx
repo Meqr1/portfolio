@@ -1,7 +1,8 @@
-import { Button, NextUIProvider } from "@nextui-org/react";
+import { NextUIProvider } from "@nextui-org/react";
 import Navbar from "./Navbar";
 import "./globals.css";
-import { Head } from "next/head";
+import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function RootLayout({
   children,
