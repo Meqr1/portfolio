@@ -45,6 +45,12 @@ export default function Page() {
               >
                 Contact Me
               </Link>
+              <Link
+                href="/about"
+                className="hover:opacity-90 opacity-60 hover:text-9xl transition-all duration-300 delay-100"
+              >
+                About Me
+              </Link>
             </div>
           </div>
         </div>

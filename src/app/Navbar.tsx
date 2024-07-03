@@ -25,6 +25,9 @@ const Nav = () => {
         <NavbarItem>
           <Link href="/projects">Projects</Link>
         </NavbarItem>
+        <NavbarItem>
+          <Link href="/about">About</Link>
+        </NavbarItem>
       </NavbarContent>
       <NavbarMenuToggle className="sm:hidden" />
       <NavbarMenu className="sm:hidden">
@@ -33,6 +36,9 @@ const Nav = () => {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link href="/projects">Projects</Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link href="/about">About</Link>
         </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
