@@ -85,12 +85,12 @@ body {
     radial-gradient(
         circle farthest-corner at 0 0,
         #000 30%,
-        #a899fb 65%,
-        #732fc9 80%,
-        #c1f1ff 110%
+        #fff 65%,
+        #000 80%,
+        #fff 110%
       )
       no-repeat,
-    radial-gradient(closest-side at 60% 50%, #732fc9 20%, #000 100%) no-repeat;
+    radial-gradient(closest-side at 60% 50%, #3f3f46 20%, #000 100%) no-repeat;
   background-blend-mode: overlay;
 }
 
