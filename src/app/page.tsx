@@ -1,6 +1,6 @@
 "use client";
 
-import { Divider } from "@nextui-org/react";
+import { Divider, Image, CardFooter, Card } from "@nextui-org/react";
 
 export default function Page() {
     return (
@@ -34,7 +34,7 @@ export default function Page() {
                         </div>
                         <br />
                         <br />
-                        <div className="sm:p-4 p-1 sm:m-5 m-2 mt-[100px]">
+                        <div className="sm:p-4 p-1 sm:m-5 m-2 mt-[100px]" id="techstack">
                             <h1 className="text-6xl text-zinc-300 mb-4 mt-4">Tech Stack</h1>
                             <Divider />
 
@@ -104,8 +104,47 @@ export default function Page() {
                                         </svg>
                                     </span>
                                     <span>
-                                        <svg height="1em" viewBox="0 0 50.4 72.401" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#fff" ><path d="M 49.6 5.1 L 49.6 12.8 L 47.6 13.8 Q 44.4 11.2 40.1 9.5 A 23.633 23.633 0 0 0 34.852 8.126 A 31.81 31.81 0 0 0 30.2 7.8 A 23.603 23.603 0 0 0 23.749 8.655 A 20.325 20.325 0 0 0 19.3 10.5 A 16.008 16.008 0 0 0 14.226 15.09 Q 12.83 16.997 11.75 19.45 A 27.729 27.729 0 0 0 10.102 24.64 Q 9 29.629 9 36.4 A 61.454 61.454 0 0 0 9.435 43.987 Q 10.441 52.049 13.778 56.77 A 16.727 16.727 0 0 0 14.65 57.9 A 18.088 18.088 0 0 0 24.269 63.772 Q 27.295 64.548 30.912 64.597 A 36.184 36.184 0 0 0 31.4 64.6 Q 36.1 64.6 40.25 63.35 A 25.663 25.663 0 0 0 45.823 60.889 A 31.659 31.659 0 0 0 48.4 59.2 L 50.4 60.2 L 50.4 67.9 Q 46.3 70.1 41.6 71.25 A 40.47 40.47 0 0 1 34.483 72.309 A 48.065 48.065 0 0 1 31.5 72.4 A 41.635 41.635 0 0 1 23.753 71.718 Q 18.311 70.687 14.1 68.1 A 26.323 26.323 0 0 1 4.186 57.064 A 32.407 32.407 0 0 1 3.55 55.7 Q 0.215 48.091 0.014 37.745 A 68.919 68.919 0 0 1 0 36.4 Q 0 23.7 4.1 15.7 A 30.96 30.96 0 0 1 8.729 8.924 A 25.162 25.162 0 0 1 15.1 3.85 A 30.686 30.686 0 0 1 29.616 0.009 A 36.203 36.203 0 0 1 30.4 0 A 38.92 38.92 0 0 1 39.293 0.996 A 35.91 35.91 0 0 1 40.5 1.3 Q 45.3 2.6 49.6 5.1 Z" vector-effect="non-scaling-stroke" /></g></svg>
+                                        <svg height="1em" viewBox="0 0 50.4 72.401" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" strokeLinecap="round" fillRule="evenodd" fontSize="9pt" stroke="#000" strokeWidth="0.25mm" fill="#fff" ><path d="M 49.6 5.1 L 49.6 12.8 L 47.6 13.8 Q 44.4 11.2 40.1 9.5 A 23.633 23.633 0 0 0 34.852 8.126 A 31.81 31.81 0 0 0 30.2 7.8 A 23.603 23.603 0 0 0 23.749 8.655 A 20.325 20.325 0 0 0 19.3 10.5 A 16.008 16.008 0 0 0 14.226 15.09 Q 12.83 16.997 11.75 19.45 A 27.729 27.729 0 0 0 10.102 24.64 Q 9 29.629 9 36.4 A 61.454 61.454 0 0 0 9.435 43.987 Q 10.441 52.049 13.778 56.77 A 16.727 16.727 0 0 0 14.65 57.9 A 18.088 18.088 0 0 0 24.269 63.772 Q 27.295 64.548 30.912 64.597 A 36.184 36.184 0 0 0 31.4 64.6 Q 36.1 64.6 40.25 63.35 A 25.663 25.663 0 0 0 45.823 60.889 A 31.659 31.659 0 0 0 48.4 59.2 L 50.4 60.2 L 50.4 67.9 Q 46.3 70.1 41.6 71.25 A 40.47 40.47 0 0 1 34.483 72.309 A 48.065 48.065 0 0 1 31.5 72.4 A 41.635 41.635 0 0 1 23.753 71.718 Q 18.311 70.687 14.1 68.1 A 26.323 26.323 0 0 1 4.186 57.064 A 32.407 32.407 0 0 1 3.55 55.7 Q 0.215 48.091 0.014 37.745 A 68.919 68.919 0 0 1 0 36.4 Q 0 23.7 4.1 15.7 A 30.96 30.96 0 0 1 8.729 8.924 A 25.162 25.162 0 0 1 15.1 3.85 A 30.686 30.686 0 0 1 29.616 0.009 A 36.203 36.203 0 0 1 30.4 0 A 38.92 38.92 0 0 1 39.293 0.996 A 35.91 35.91 0 0 1 40.5 1.3 Q 45.3 2.6 49.6 5.1 Z" vectorEffect="non-scaling-stroke" /></g></svg>
                                     </span>
+                                </div>
+                            </div>
+                            <div id="projects">
+                                <br />
+                                <br />
+                                <h1 className="text-6xl text-zinc-300 mb-4 mt-4">
+                                    Projects
+                                </h1>
+                                <Divider />
+                                <div className="mt-[100px] text-center flex flex-col items-center justify-end gap-10 text-8xl">
+                                    <a href="https://nuranote.web.app">
+                                        <Card isFooterBlurred className="sm:w-[500px] w-[300px]">
+                                            <Image src="/NuraNote.png" alt="NuraNote" />
+
+                                            <CardFooter className="justify-start before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                                                <p className="text-tiny text-white/80">NuraNote</p>
+                                            </CardFooter>
+                                        </Card>
+                                    </a>
+                                    <a href="https://inzota.com">
+                                        <Card isFooterBlurred className="sm:w-[500px] w-[300px]">
+                                            <Image src="/inzota.png" alt="inzota" />
+
+                                            <CardFooter className="justify-start before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                                                <p className="text-tiny text-white/80">inzota</p>
+                                            </CardFooter>
+                                        </Card>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="about">
+                                <br />
+                                <br />
+
+                                <h1 className="text-6xl text-zinc-300 mb-4 mt-4">
+                                    About Me
+                                </h1>
+                                <Divider />
+                                <div>
                                 </div>
                             </div>
                         </div>
