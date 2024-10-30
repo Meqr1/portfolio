@@ -108,44 +108,54 @@ export default function Page() {
                                     </span>
                                 </div>
                             </div>
-                            <div id="projects">
-                                <br />
-                                <br />
-                                <h1 className="text-6xl text-zinc-300 mb-4 mt-4">
-                                    Projects
-                                </h1>
-                                <Divider />
-                                <div className="mt-[100px] text-center flex flex-col items-center justify-end gap-10 text-8xl">
-                                    <a href="https://nuranote.web.app">
-                                        <Card isFooterBlurred className="sm:w-[500px] w-[300px]">
-                                            <Image src="/NuraNote.png" alt="NuraNote" />
+                        </div>
+                        <div id="projects" className="sm:p-4 p-1 sm:m-5 m-2 mt-[100px]">
+                            <br />
+                            <br />
+                            <h1 className="text-6xl text-zinc-300 mb-4 mt-4">
+                                Projects
+                            </h1>
+                            <Divider />
+                            <div className="mt-[100px] text-center flex flex-col items-center justify-end gap-10 text-8xl">
+                                <a href="https://nuranote.web.app">
+                                    <Card isFooterBlurred className="sm:w-[500px] w-[300px]">
+                                        <Image src="/NuraNote.png" alt="NuraNote" />
 
-                                            <CardFooter className="justify-start before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                                                <p className="text-tiny text-white/80">NuraNote</p>
-                                            </CardFooter>
-                                        </Card>
-                                    </a>
-                                    <a href="https://inzota.com">
-                                        <Card isFooterBlurred className="sm:w-[500px] w-[300px]">
-                                            <Image src="/inzota.png" alt="inzota" />
+                                        <CardFooter className="justify-start before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                                            <p className="text-tiny text-white/80">NuraNote</p>
+                                        </CardFooter>
+                                    </Card>
+                                </a>
+                                <a href="https://inzota.com">
+                                    <Card isFooterBlurred className="sm:w-[500px] w-[300px]">
+                                        <Image src="/inzota.png" alt="inzota" />
 
-                                            <CardFooter className="justify-start before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-                                                <p className="text-tiny text-white/80">inzota</p>
-                                            </CardFooter>
-                                        </Card>
-                                    </a>
-                                </div>
+                                        <CardFooter className="justify-start before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                                            <p className="text-tiny text-white/80">inzota</p>
+                                        </CardFooter>
+                                    </Card>
+                                </a>
                             </div>
-                            <div id="about">
+                        </div>
+                        <div id="about" className="sm:p-4 p-1 sm:m-5 m-2 mt-[100px] w-[990px]">
+                            <br />
+                            <br />
+
+                            <h1 className="text-6xl text-zinc-300 mb-4 mt-4">
+                                About Me
+                            </h1>
+                            <Divider />
+                            <div className="text-wrap text-sm text-zinc-200">
+                                Hi there i am Ayan Mahajan also known as MQuery, I am a full stack / low end developer.
+                                In my free time i like to create new apps that help me improve my workflow effenciy and improves my day to day life task.
+                                I like to create apps that helps users improve there workflow and help them doing there day to day tasks through my code.
                                 <br />
                                 <br />
 
-                                <h1 className="text-6xl text-zinc-300 mb-4 mt-4">
-                                    About Me
-                                </h1>
-                                <Divider />
-                                <div>
-                                </div>
+                                I create apps with such designs that helps people understand what the function of the apps are right away no clutter at all.
+                                with minimal design and modern consepts and UI / UX designing. apps created are as simple as they can be while providing the most functionality.
+                            </div>
+                            <div>
                             </div>
                         </div>
                     </div>
