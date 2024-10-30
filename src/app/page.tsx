@@ -1,6 +1,6 @@
 "use client";
 
-import { Divider, Image, CardFooter, Card } from "@nextui-org/react";
+import { Divider, Image, CardFooter, Card, Button } from "@nextui-org/react";
 
 export default function Page() {
     return (
@@ -155,7 +155,40 @@ export default function Page() {
                                 I create apps with such designs that helps people understand what the function of the apps are right away no clutter at all.
                                 with minimal design and modern consepts and UI / UX designing. apps created are as simple as they can be while providing the most functionality.
                             </div>
-                            <div>
+                        </div>
+                        <div id="contact" className="sm:p-4 p-1 sm:m-5 m-2 mt-[100px] w-[990px]">
+                            <br />
+                            <br />
+
+                            <h1 className="text-6xl text-zinc-300 mb-4 mt-4">
+                                Contact Me
+                            </h1>
+                            <Divider />
+                            <div className="text-wrap text-sm text-zinc-200 w-full">
+                                <form
+                                    action="https://formspree.io/f/xnqekwzy"
+                                    method="POST"
+                                    className="flex flex-col gap-3 "
+                                >
+                                    <label>
+                                        <br />
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            className="rounded-full bg-transparent border-2 outline-zinc-700 outline-2 border-zinc-700 w-full p-4 text-sm"
+                                            placeholder="Email"
+                                        />
+                                    </label>
+                                    <label>
+                                        <br />
+                                        <textarea
+                                            name="message"
+                                            placeholder="Message"
+                                            className="rounded-3xl bg-transparent border-2 outline-zinc-700 outline-2 border-zinc-700 w-full h-[500px] p-4 text-sm"
+                                        ></textarea>
+                                    </label>
+                                    <Button type="submit" className="bg-zinc-700">Send</Button>
+                                </form>
                             </div>
                         </div>
                     </div>
